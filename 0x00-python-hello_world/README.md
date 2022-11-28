@@ -1,1 +1,1 @@
-This is a directory containing some scripts and python files for ALX
+This is a directory containing some scripts and python files for ALX tasks
