@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 num = 0
 if len(sys.argv) == 1:
