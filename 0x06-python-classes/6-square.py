@@ -12,6 +12,7 @@ class Square:
         """
         self.__size = size
         self.__position = position
+
     def area(self):
         """Method that returns the area of the square
         """
@@ -22,6 +23,7 @@ class Square:
         """ Method to return the size of the square
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """Method to set the value of size
@@ -38,6 +40,7 @@ class Square:
         """Method to return the position of the square
         """
         return self.__position
+
     @position.setter
     def position(self, value):
         """Method to set the position of the square
