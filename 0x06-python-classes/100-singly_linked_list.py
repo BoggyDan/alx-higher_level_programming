@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""Square module
+This module contains a class that defines a square
+and initializes it with a size
+"""
+
+
 class Node:
     def __init__(self, data, next_node=None):
         self.data = data
