@@ -4,7 +4,7 @@ if (Number.isNaN(size)) {
   console.log('Missing size');
 } else {
   for (let i = size; i > 0; i--) {
-    s = '';
+    let s = '';
     for (let j = size; j > 0; j--) {
       s += 'X';
     }
