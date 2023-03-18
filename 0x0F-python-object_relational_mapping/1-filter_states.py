@@ -12,7 +12,7 @@ if __name__ == '__main__':
                          db=sys.argv[3], port=3306)
 
     cur = db.cursor()
-    cur.execute("SELECT * states WHERE name REGEXP '^N.*$';")
+    cur.execute("SELECT * FROM states WHERE name REGEXP '^N.*$';")
     states = cur.fetchall()
 
     for state in states:
